@@ -11,10 +11,8 @@ contract SimpleStorage {
         string name;
     }
 
-    // Dynamic array
     People[] public people;
 
-    // Mapping data structure
     mapping(string => uint256) public nameToFavouriteNumber;
 
     function store(uint256 _favouriteNumber) public returns (uint256) {
