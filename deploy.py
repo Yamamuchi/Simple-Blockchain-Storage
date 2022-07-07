@@ -98,5 +98,3 @@ tx_receipt = w3.eth.wait_for_transaction_receipt(send_store_tx)
 print("Contract updated!")
 
 print(f"Updated value: {simple_storage.functions.retrieve().call()}")
-
-# Comment
